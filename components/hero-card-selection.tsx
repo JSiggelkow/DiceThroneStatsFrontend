@@ -121,7 +121,7 @@ export default function HeroCardSelection({
       </Select>
       {/*Reset button*/}
       <Button
-        className="p-2 max-w-xs dark:bg-amber-500 dark:text-black"
+        className="ml-2 p-2 max-w-xs dark:bg-amber-500 dark:text-black"
         size="lg"
         variant="solid"
         onPress={handleResetChange}
