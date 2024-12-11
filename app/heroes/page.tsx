@@ -6,7 +6,7 @@ export default async function Heroes() {
   const heroCards = await data.json();
 
   return (
-    <div className="grid grid-cols-5 gap-4">
+    <div className="grid 2xl:grid-cols-6 xl:grid-cols-5 md:grid-cols-4 gap-4">
       {heroCards.map((heroCard: HeroCardModel) => (
         <HeroCard
           key={heroCard.name}
