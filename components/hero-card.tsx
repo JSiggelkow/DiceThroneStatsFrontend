@@ -16,10 +16,10 @@ const HeroCard: React.FC<HeroCardModel> = ({
 
   switch (season) {
     case 1:
-      seasonName = "One";
+      seasonName = "Season One";
       break;
     case 2:
-      seasonName = "Two";
+      seasonName = "Season Two";
       break;
     case 3:
       seasonName = "Marvel";
@@ -32,7 +32,7 @@ const HeroCard: React.FC<HeroCardModel> = ({
     <Card className="py-4 hover:cursor-pointer hover:scale-105 transition-transform duration-200 ease-in-out flex flex-row md:flex-col h-32 md:h-auto">
       <CardHeader className="pb-0 pt-2 px-4 flex-grow flex-col items-start w-auto md:w-full">
         <h4 className="font-bold text-large">{name}</h4>
-        <small className="text-default-500">Season: {seasonName}</small>
+        <small className="text-default-500">{seasonName}</small>
         <small className="text-default-500">Difficulty: {difficulty}</small>
         <small className="text-default-500">Games: {games}</small>
       </CardHeader>
