@@ -1,3 +1,7 @@
+"use client";
+
+import HeroSelectionBar from "@/components/hero-selection-bar";
+
 export default function NewGame() {
-  return <p>New Game is working!</p>;
+  return <HeroSelectionBar />;
 }
